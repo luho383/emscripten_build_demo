@@ -1,0 +1,16 @@
+{
+  "project": "test.dev",
+  "version": "0.0.1",
+
+  "emscriptenHome":"/usr/local/Cellar/emscripten/1.34.6/libexec/",
+
+  "sourceFiles":[ {
+    "src": ["../src/test/helloworld.cpp"]
+  }],
+  "dataPath": "../data@/",
+  "sourcePath": "../src/",
+  "outputPath": "../public/js/",
+
+  "sassSourcePath": "../src/sass/",
+  "cssOutputPath": "../public/css/"
+}
